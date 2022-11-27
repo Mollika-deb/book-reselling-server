@@ -23,6 +23,7 @@ async function run() {
         const categoryCollection = client.db('BookSaler').collection('categories');
         const bookCollection = client.db('BookSaler').collection('Books');
         const orderCollection = client.db('BookSaler').collection('order');
+        const userCollection = client.db('BookSaler').collection('user');
         // const reviewCollection = client.db('tourBD').collection('reviews');
 
 
